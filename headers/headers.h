@@ -3,12 +3,13 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 #include <math.h>
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 /*define a 2D map for walls, etc. */
-#define MAP_WIDTH 8
-#define MAP_HEIGHT 8
+#define MAP_WIDTH 40
+#define MAP_HEIGHT 40
 extern int map[MAP_HEIGHT][MAP_WIDTH];
 /*Structure for the player */
 typedef struct {
