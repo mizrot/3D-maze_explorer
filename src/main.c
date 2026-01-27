@@ -62,7 +62,7 @@ static void move_with_collisions(Player *p, float dx, float dy) {
  *
  * Return: 0 on success
  */
-int main(void)
+int main(int argc, char *argv[])
 {
 	SDL_Window *window = NULL;
 	SDL_Renderer *renderer = NULL;

@@ -1,3 +1,5 @@
 maze
+maze.exe
 test/a.out
 src/*.o
+src/*.obj

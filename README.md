@@ -27,14 +27,13 @@
 2. Clone the repository: `git clone https://github.com/Mikonimo/3D-maze_explorer.git`
 3. Compile the project: Navigate to the project directory: `cd 3D-maze_explorer`
 4. Compile the project: `make`
+5. (Additional) Compile the project for Windows: `make maze.exe`
 ## Usage
 
-Run the compiled executable: `./3D-maze_explorer`
+Run the compiled executable: `./maze`
 
 Use the following controls:
 - W, A, S, D: Move forward, left, backward, right
-- Mouse or arrow keys: Rotate camera
-- M: Toggle mini-map
 - ESC: Exit game
 
 ## License
